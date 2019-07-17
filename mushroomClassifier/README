@@ -1,0 +1,13 @@
+Classifying Mushrooms Using BP-ANN
+
+General Notes:
+
+	-All constants within MushroomNN.c can be modified besides parameters for the input data.
+	-mushrooms are classifed as poisonous if NN output < .5 and edible if NN output > .5.
+	
+Usage:
+	to compile : gcc -o mushroomNN.c mushroomNN -lm
+	to run : ./mushroomNN #numHiddenNeurons #numOutputNeurons learningSpeed
+		ex : ./mushroomNN 16 1 .3
+
+

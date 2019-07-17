@@ -1,0 +1,20 @@
+Last date modified : December 13,  2017
+Program description :
+  q-learn.cpp : Uses q-learning reinforcement technique to train an agent to find the most direct path from all rooms on the 4th floor of cs building at Western Washington University to a particular location on the floor (441 referencing floor plan)
+  Grids.java : A visual display of a path being taken by an agent on the 52 x 16 grid used to model the 4th floor. Uses two files produced by q-learn.cpp
+
+  Requirements :
+    -g++ compiler version 5.4.0 (other versions may work)
+    -Java 8 (other versions may work)
+
+  Usage:
+    -There is a bash script provided that will compile and execute both programs.
+     To run it we need to give the shell permission to execute the script by using
+     the following command : chmod 755 runqlearning
+
+     -to run the script: ./runqlearning
+
+  Notes:
+    -The only constants that can be modified are RANDOM_ACTION_LIKELIHOOD
+     and GAMMA if other constants are modified the program will not
+     produce intended results.

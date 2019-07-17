@@ -1,0 +1,6 @@
+#!/bin/bash
+#runs and compiles q-learn.cpp and Grids.java
+g++ q-learn.cpp -o qlearn
+javac Grids.java
+./qlearn
+java Grids
